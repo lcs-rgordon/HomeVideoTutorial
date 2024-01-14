@@ -10,7 +10,6 @@ import SwiftUI
 struct HomeView: View {
     
     // MARK: Stored properties
-    let gradientColors = Gradient(colors: [.gradientBlue, .gradientPurple, .gradientYellow])
     
     // MARK: Computed properties
     var body: some View {
@@ -18,12 +17,7 @@ struct HomeView: View {
         ZStack {
             
             // Background
-            LinearGradient(
-                gradient: gradientColors,
-                startPoint: .topLeading,
-                endPoint: .bottomTrailing
-            )
-            .ignoresSafeArea()
+            GradientView()
             
             // Foreground
             

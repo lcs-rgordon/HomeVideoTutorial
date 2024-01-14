@@ -11,6 +11,7 @@
 		8124A3BC2B5470600085F764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8124A3BB2B5470600085F764 /* Assets.xcassets */; };
 		8124A3BF2B5470600085F764 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8124A3BE2B5470600085F764 /* Preview Assets.xcassets */; };
 		8124A3C72B5470A80085F764 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8124A3C62B5470A80085F764 /* HomeView.swift */; };
+		8124A3C92B5482800085F764 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8124A3C82B5482800085F764 /* GradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		8124A3BB2B5470600085F764 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8124A3BE2B5470600085F764 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8124A3C62B5470A80085F764 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8124A3C82B5482800085F764 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				8124A3C62B5470A80085F764 /* HomeView.swift */,
+				8124A3C82B5482800085F764 /* GradientView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			files = (
 				8124A3B82B54705E0085F764 /* HomeApp.swift in Sources */,
 				8124A3C72B5470A80085F764 /* HomeView.swift in Sources */,
+				8124A3C92B5482800085F764 /* GradientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
