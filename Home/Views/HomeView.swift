@@ -8,8 +8,28 @@
 import SwiftUI
 
 struct HomeView: View {
+    
+    // MARK: Stored properties
+    let gradientColors = Gradient(colors: [.gradientBlue, .gradientPurple, .gradientYellow])
+    
+    // MARK: Computed properties
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        ZStack {
+            
+            // Background
+            LinearGradient(
+                gradient: gradientColors,
+                startPoint: .topLeading,
+                endPoint: .bottomTrailing
+            )
+            .ignoresSafeArea()
+            
+            // Foreground
+            
+            
+        }
+        
     }
 }
 
